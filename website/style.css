@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("peach.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.layer {
+    background-color: rgba(59, 59, 59, .4);
+    height: fit-content;
+}
+
+#app {
+
+    color: white;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+
+}
+
+.holder {
+    text-align: center;
+    color: white;
+}
+
+.entry {
+    background: rgba(59, 74, 107, .4);
+}
+
+
+#date {
+    color: wheat;
+}
+
+#temp {
+    color: white;
+    font-size: 50px;
+}
+
+
+#country {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+    display: block;
+    font-size: 27px;
+}
+
+input,
+.input {
+    background-color: rgb(22, 21, 21);
+    width: 50%;
+    border: none;
+    opacity: .7;
+    font-size: 16px;
+    color: white !important;
+
+
+}
+
+button {
+    display: block
+}
+
+h1 {
+    font-size: 36px;
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: white;
+    opacity: .5;
+
+
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+
+}
+
+.btn {
+    transition: all 1s;
+}
