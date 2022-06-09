@@ -25,7 +25,7 @@ that because i give it "d-none" class and remove it when the user enter the genr
 ### Finally 
 finally I tried hard to make this project unique and explained well with comments, and acutally I learned alot of concepts from it , i hope you like it. :)
 
-Thanks to teachers , tutors and all the reviwers for the hard effort they do for us :)
+Thanks to Udacity teachers , tutors and all the reviwers for the hard effort they do for us :)
 
 
 # Weather-Journal-web-App-API-JavaScript-nodeJs-Express
